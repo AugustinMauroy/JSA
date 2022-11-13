@@ -1,0 +1,14 @@
+{
+  "name": "jsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "javascript",
+    "ECMA",
+    "Literal template"
+  ],
+  "author": "AugustinMauroy",
+  "license": "MIT",
+  "type": "module"
+}
