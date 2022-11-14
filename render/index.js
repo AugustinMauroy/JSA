@@ -11,6 +11,7 @@ function render(insertJSA, data){
             }
         })
     }
+    
     if(ispath.test(data) === true){
         var data = fs.readFileSync(data, "utf-8", (err,data)=>{
             if (err) {
