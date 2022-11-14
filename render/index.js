@@ -11,6 +11,15 @@ function render(insertJSA, data){
             }
         })
     }
+    if(ispath.test(data) === true){
+        var data = fs.readFileSync(data, "utf-8", (err,data)=>{
+            if (err) {
+                throw err
+            } else {
+                return data
+            }
+        })
+    }
 
     let result = eval(`${var_gen(data)}\`${insertJSA}\``)
     return result;
