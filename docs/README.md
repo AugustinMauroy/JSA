@@ -1,4 +1,4 @@
-| lang |FR 🇧🇪 | [EN 🇬🇧](/docs/index.en.md) |
+| lang |FR 🇧🇪 | [EN 🇬🇧](/docs/README.en.md) |
 |:----:|:-----:|:--------------------:|
 
 # Au sujet de cette Documentation
