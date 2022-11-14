@@ -8,7 +8,6 @@ function var_gen(data){
         var var_content = eval(`data.${key}`)
         result += `var ${key} = "${var_content}";\n`;
     }
-    console.log(result);
     return result
 }
 
