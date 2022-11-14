@@ -1,4 +1,4 @@
-| lang |FR 🇧🇪 | [EN 🇬🇧](/index.en.md) |
+| lang |FR 🇧🇪 | [EN 🇬🇧](/docs/index.en.md) |
 |:----:|:-----:|:--------------------:|
 
 # Au sujet de cette Documentation
@@ -9,4 +9,4 @@ Dans cette documentation vous allez pouvoir trouvez toute les information au suj
 
 ## Liste des fonction
 
-* [`Render()`](/render.fr.md)
+* [`Render()`](/docs/render.fr.md)

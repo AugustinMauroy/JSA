@@ -1,4 +1,4 @@
-| lang | [FR 🇧🇪](/index.fr.md) | EN 🇬🇧 |
+| lang | [FR 🇧🇪](/docs/index.fr.md) | EN 🇬🇧 |
 |:----:|:-----:|:--------------------:|
 
 # About this Documentation
@@ -9,4 +9,4 @@ In this documentation you can find all the information about the JSA.
 
 ## List of functions
 
-* [`Render()`](/render.en.md)
+* [`Render()`](/docs/render.en.md)
