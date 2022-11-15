@@ -16,3 +16,5 @@ Examples of behavior that contributes to a positive environment for our communit
 * Public or private harassment
 * Publishing others' private information, such as a physical or email address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
+
+> Inspired by the nodejs code of conduct
