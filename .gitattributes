@@ -1,1 +1,4 @@
+# ignored file
 docs/ export-ignore
+.gitignore
+CODE_OF_CONDUCT.md
