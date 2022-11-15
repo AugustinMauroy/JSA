@@ -1,18 +1,19 @@
 import fs from "node:fs"
-import { var_gen } from "./var_gen.js"
+import { varGen } from "./varGen.js"
 
-function render(insertJSA, data){
-    if(ispath.test(insertJSA) === true){
-        var insertJSA = fs.readFileSync(insertJSA, "utf-8", (err,data)=>{
+const isPath = new RegExp ("^(.+)\/([^\/]+)$");
+
+export function render(template, data){
+    if(isPath.test(template) === true){
+        var template = fs.readFileSync(template, "utf-8", (err,data)=>{
             if (err) {
                 throw err
             } else {
                 return data
             }
         })
-    }
-    
-    if(ispath.test(data) === true){
+    } 
+    if(isPath.test(data) === true){
         var data = fs.readFileSync(data, "utf-8", (err,data)=>{
             if (err) {
                 throw err
@@ -22,10 +23,6 @@ function render(insertJSA, data){
         })
     }
 
-    let result = eval(`${var_gen(data)}\`${insertJSA}\``)
+    let result = eval(`${varGen(data)}\`${template}\``)
     return result;
 }
-
-const ispath = new RegExp ("^(.+)\/([^\/]+)$");
-
-export { render }

@@ -1,4 +1,4 @@
-function var_gen(data){
+export function var_gen(data){
     if(typeof data === `string`){
        data = JSON.parse(data);
     };
@@ -10,6 +10,3 @@ function var_gen(data){
     }
     return result
 }
-
-
-export { var_gen }

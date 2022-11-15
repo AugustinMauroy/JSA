@@ -1,4 +1,1 @@
-import { render } from "./render/index.js";
-
-export default render;
-export { render };
+export  { render } from "./render/index.js";
