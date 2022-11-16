@@ -10,3 +10,4 @@ In this documentation you can find all the information about the JSA.
 ## List of functions
 
 * [`Render()`](/docs/render.en.md)
+* [JSA File](/docs/file.en.md)
