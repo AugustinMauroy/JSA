@@ -1,5 +1,6 @@
 name: 🐛 Bug Report For JSA
 description: Report an issue if something isn't working as expected 🤔.
+labels: [ bug ]
 body:
   - type: markdown
     attributes:
