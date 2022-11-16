@@ -1,7 +1,7 @@
 {
   "name": "jsa",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSA is a file that allows to render javascript literal templates",
   "main": "index.js",
   "keywords": [
     "javascript",
@@ -10,5 +10,6 @@
   ],
   "author": "AugustinMauroy",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "repository": {"url": "https://github.com/augustinmauroy/jsa"}
 }
