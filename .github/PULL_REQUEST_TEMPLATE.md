@@ -12,4 +12,4 @@
 
 # Check List
 
-- [ ] I have read the [Contributing Guidelines](https://github.com/AugustinMauroy/JSA/blob/main/CODE_OF_CONDUCT.md) and made commit messages that follow the guideline.
+- [ ] I have read the [Code of conduct](https://github.com/AugustinMauroy/JSA/blob/main/CODE_OF_CONDUCT.md) and made commit messages that follow the guideline.
