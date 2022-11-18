@@ -1,12 +1,27 @@
+const isValidObject = (data) => {
+    try {
+      JSON.parse(data)
+      return true
+    } catch {
+      return false
+    }
+  }
+
 export function varGen(data){
     if(typeof data === `string`){
-       data = JSON.parse(data);
+        if(isValidObject(data) === true){
+        data = JSON.parse(data);
+        } else {
+            console.error("\x1b[31m", "Error: Your data isn't an valid JSON", "\x1b[0m");
+            return ''
+        }
     };
 
-    var result = ``
-    for (var key in data) {
-        var var_content = eval(`data.${key}`)
-        result += `var ${key} = "${var_content}";\n`;
+    let result = ``
+    for (let key in data) {
+        let var_content = eval(`data.${key}`)
+        result += `let ${key} = "${var_content}";\n`;
     }
+    
     return result
 }
