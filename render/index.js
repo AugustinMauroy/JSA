@@ -23,6 +23,5 @@ export function render(data, template){
         })
     } 
     
-    let result = eval(`${varGen(data)}\`${template}\``)
-    return result;
+    return eval(`${varGen(data)}\`${template}\``)
 }
