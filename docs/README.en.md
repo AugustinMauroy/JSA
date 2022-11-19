@@ -7,7 +7,7 @@ In this documentation you can find all the information about the JSA.
 
 > You can access this documentation in several languages thanks to the small selector at the top of the page.
 
-## List of functions
+## List of functionality
 
 * [`Render()`](/docs/render.en.md)
 * [JSA File](/docs/file.en.md)

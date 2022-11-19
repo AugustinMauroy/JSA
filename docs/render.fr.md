@@ -5,11 +5,11 @@
 
 ## `render(template, data)`
 
-- `data` [`String`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures#string_type) | `JSON` | `Path` |
+- `data` | [`String`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures#string_type) | `JSON` | `Path` |
 
 Chaîne de caractères qui provient d'un fichier `.JSON`. Cela peut aussi être une variable javascript sous le type JSON. Ou bien encore un chemin d'accès au fichier souhaité.
 
-- `template` [`String`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures#string_type) | `Path` |
+- `template` | [`String`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures#string_type) | `Path` |
 
 Chaîne de caractères en provenance d'un fichier `.JSA`. Il peut être récupéré grâce au module fs de node.
 
