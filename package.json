@@ -1,5 +1,5 @@
 {
-  "name": "jsa",
+  "name": "jsalpha",
   "version": "1.0.0",
   "description": "JSA is a file that allows to render javascript literal templates",
   "main": "index.js",
