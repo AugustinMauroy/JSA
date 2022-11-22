@@ -1,5 +1,5 @@
-# JSA
+# JSalpha
 
-Le jsa est un fichier qui est basé sur les template littéral javascript.
+The jsa is a file that is based on the literal javascript template.
 
-Vous pouvez trouves toutes les infos sur le [repo github](https://github.com/augustinmauroy/jsa)
+You can find all the info on the [repo github](https://github.com/augustinmauroy/jsa)
