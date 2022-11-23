@@ -20,7 +20,7 @@ export function varGen(data){
     let result = ``
     for (let key in data) {
         let var_content = eval(`data.${key}`)
-        result += `let ${key} = "${var_content}";\n`;
+        result += `let ${key} = \`${var_content}\`;\n`;
     }
     
     return result
