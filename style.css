@@ -1,6 +1,8 @@
 :root{
     --background_color: #FDFEFE;
+    --contrast_background_color: #212F3D;
     --text_color: #212F3D;
+    --contrast_text_color:#FDFEFE;
     --link:#943126;
     --link_hover:#CD6155  ;
     --nav_bar_background_color: #F4D03F;
@@ -9,6 +11,8 @@
 @media (prefers-color-scheme: dark) {
     :root{
         --background_color: #212F3D;
+        --contrast_background_color:#ABB2B9;
+        --contrast_text_color:#212F3C;
         --text_color: #FDFEFE;
         --link:#CD6155  ;
         --link_hover:#943126;
@@ -26,7 +30,13 @@ html{
     width: fit-content;
     height: fit-content;
 }
-
+header#banner{
+    background-color: var(--contrast_background_color);
+    margin: 10px;
+    grid-row: auto;
+    text-align: center;
+    border-radius: 15px;
+}
 /*Index page*/
 .body-index{
         color: var(--text_color);
