@@ -30,8 +30,12 @@ html{
     width: fit-content;
     height: fit-content;
 }
+.code svg:active{
+    color: var(--link);
+}
 header#banner{
     background-color: var(--contrast_background_color);
+    color:var(--contrast_text_color);
     margin: 10px;
     grid-row: auto;
     text-align: center;
@@ -81,7 +85,6 @@ header#banner{
   
   .dropdown {
     position: relative;
-    display: inline-block;
     float: right;
   }
   
