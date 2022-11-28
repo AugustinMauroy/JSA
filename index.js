@@ -20,7 +20,6 @@ function getRandomInt(max) {
 
 function bannerDisplay(){
     const header = document.getElementById("banner");
-    console.log(header);
     let id = getRandomInt(bannerList.length)
     header.innerHTML = `
         <h2>${bannerList[id].title}</h2>
