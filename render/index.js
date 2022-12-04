@@ -11,7 +11,7 @@ export function render(data, template){
             } else {
                 return data
             }
-        })
+        });
     }
     if(isPath.test(template)){
         var template = fs.readFileSync(template, "utf-8", (err,data)=>{
@@ -20,7 +20,7 @@ export function render(data, template){
             } else {
                 return data
             }
-        })
+        });
     } 
     
     return eval(`${varGen(data)}\`${template}\``)
