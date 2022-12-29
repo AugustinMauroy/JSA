@@ -7,6 +7,12 @@ const isValidObject = (data) => {
     }
   }
 
+/**
+ * @param { string} data
+ * @param { object } data
+ * @returns { string }
+ * @example varGen({name: "John", age: 30, city: "New York"}) => "let name = `John`; let age = `30`; let city = `New York`;"
+ */
 export function varGen(data){
     if(typeof data === `string`){
         if(isValidObject(data) === true){
